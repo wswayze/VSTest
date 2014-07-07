@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b2352155-6793-4dbd-ac0a-6a376911d292" name="ManagePaperwork Diagram" linkedPackageId="c2980e2f-0c78-4e8c-9559-5e26e1ee8f37" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="1a0f1b1a-d9c1-4ed9-adfe-11036ebde04f" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="c219fb5a-f436-496a-b7a2-8ae36ca1264e" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="204725bf-7bc0-432e-997d-f95d0e7e6be4">
+          <propertyInstance Id="d19e8246-0f7f-4199-8439-972504b59919" name="BaseName">
+            <elementDefinition Id="158908d5-d4fe-4a91-875e-51050e892137" />
+          </propertyInstance>
+          <elementDefinition Id="9a673236-ed02-4882-9a16-e89398537b9d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1b56c171-6ac4-484e-a043-b7832ecb579d">
+          <propertyInstance Id="88213c95-a2ec-41d0-9ae4-7d8d4762330d" name="ClrAttributes">
+            <elementDefinition Id="8cf48b3f-b421-4ec1-aed5-e5915ff640ab" />
+          </propertyInstance>
+          <elementDefinition Id="0f57633b-11b8-4fee-baef-f311ada4bd79" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="819b8e3a-2903-4c11-b282-c21bc57251c1">
+          <propertyInstance Id="fd68d271-843d-442f-a07f-772fc7b6ff54" name="Usings">
+            <elementDefinition Id="50dfb858-ddaa-4e31-b77f-43b84af351cf" />
+          </propertyInstance>
+          <elementDefinition Id="d66cb131-f6e5-4178-9c54-20a8d9c7d331" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="a0dc4ce9-7df3-4478-acc6-9d5f92648a89" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="d30bf9b5-aaf7-40ba-914b-bf3efb568938" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a2e0b9e1-cbfe-449f-a8cc-fcb7628a53b9">
+          <propertyInstance Id="3d47723e-7b1c-42f1-a6c1-7a83d6da08cd" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="1cb96922-6ba8-462f-9454-349496b36d57" />
+          </propertyInstance>
+          <elementDefinition Id="01b1f5e8-7fbe-4cb3-b5c7-9cac3bd204dd" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1cc8a2a9-9227-4f70-a19c-08a8db4b6c7f">
+          <propertyInstance Id="44396cb6-1a33-4138-ae91-b3b85293c13a" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="e164fb2c-3293-4ea5-b514-9c23b8481785" />
+          </propertyInstance>
+          <elementDefinition Id="166ceb51-16c1-490c-9b6a-c21fac3b521a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4c9e0ec2-9a25-44c1-b98b-6d66eacab434">
+          <propertyInstance Id="c73ed89d-f1a8-4389-bf9a-bf8ef64dd45c" name="ProjectPath" value="ClassTemplate=..\EncounterModelLib\EncounterModelLib.csproj|EnumTemplate=..\EncounterModelLib\EncounterModelLib.csproj|InterfaceTemplate=..\EncounterModelLib\EncounterModelLib.csproj|StructTemplate=..\EncounterModelLib\EncounterModelLib.csproj">
+            <elementDefinition Id="42af1a3a-2290-4c44-ac1f-a9cce76f8af1" />
+          </propertyInstance>
+          <elementDefinition Id="a37f2de2-e640-4db0-adc5-c5cf93de77b4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8d57f041-3017-4f13-b57f-86364d64dbbe">
+          <propertyInstance Id="426ed1e5-8d25-47b8-9df5-4bd0f9982b78" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="a9c17aa6-42b9-487b-97ee-d1f1f76726e0" />
+          </propertyInstance>
+          <elementDefinition Id="e88be57e-73a7-4cd7-80e4-c634d88f27be" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f0263d01-eef4-47ff-bbd2-3eeadac3e581">
+          <propertyInstance Id="fecc764e-cbe3-447a-826c-d2235cdac6a7" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="9ddd66fb-d474-43b5-978f-0925dee3e2f6" />
+          </propertyInstance>
+          <elementDefinition Id="13420228-9797-4622-88ef-aa16a0ea4939" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fa1c9ccd-0891-4f1a-95c3-d649b17ed4f9">
+          <propertyInstance Id="0f711069-87fd-4a72-90e3-4ed66b1b8ea0" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="1c3614bd-6b38-4201-b3fd-5f751cd725ee" />
+          </propertyInstance>
+          <elementDefinition Id="1533fce0-4a6b-4d6a-801d-c80c5ce3b019" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2c363651-3c7d-45c1-ae3d-c06024291443">
+          <propertyInstance Id="907a2506-a8aa-49b4-90cc-eb4e98962991" name="Parameters">
+            <elementDefinition Id="6360d80a-40fd-4699-ad91-43fe48595e53" />
+          </propertyInstance>
+          <elementDefinition Id="280c18ec-b12c-4534-a173-e29a3c7a5035" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="ab7f561c-7503-4fd5-9f5a-24420cd4c500" name="ManagePaperwork" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c8e6eaed-1c5a-4aca-9820-50974295b776" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="fe34d508-f540-457e-b2a2-f0875310c2b5" name="Attendee" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cf4d0501-e063-45db-8fb6-7ae5a1d5e168" />
+        <targetEnds>
+          <association Id="8d9c680c-6121-4ab9-9e38-5c5d5e9f4f1d" isDerived="false" sourceEndRoleName="Attendee" targetEndRoleName="TurnInApplication" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="33b42fb4-c6b3-4edb-a301-e21528cf6b56" LastKnownName="TurnInApplication" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e0b6b06-20c2-4089-882f-4e24b089e376" name="Attendee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9bae1c34-591c-4fe7-a796-6d75c8f9b647" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ab53d85c-6b5c-4f70-9ceb-a8a24fea1843" name="TurnInApplication" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="978cbe7e-f5ea-49e1-92d3-12fa11be0bb4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="86f2a792-f3a2-427c-adb8-13fb384e9c3b" />
+          </association>
+          <association Id="c22e09bb-32f5-4c97-a1ec-49f8ff8a4e02" isDerived="false" sourceEndRoleName="Attendee" targetEndRoleName="PayForSpot" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="dc6c1d7b-42ea-4724-9bc7-19bfa916e703" LastKnownName="PayForSpot" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aad84e07-b28d-4311-a897-7308ca7acfd9" name="Attendee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cd04ecae-344c-4d47-9dd3-6f5c3bf2044b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a41b9699-9a80-49bb-8da6-c629e0ca58f6" name="PayForSpot" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="21f7dfc2-dfaa-417d-8cb6-ff0bf35a9545" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="40874d3b-32f8-4981-a2a0-83e3e93772ae" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="7feb3f31-a3cc-429a-adda-8143f27e0f84" name="Admin" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="74220947-4509-422d-aea2-68303662bdcd" />
+        <targetEnds>
+          <association Id="65ad4b42-e99e-4e54-9233-ba228ed41345" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="ApproveApplication" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="61e33132-ffd2-43dc-8973-f7773ad9328e" LastKnownName="ApproveApplications" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="835bfc74-0f35-4927-b748-2b97bf945345" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6d15b800-123b-47f9-860b-59616b36dd0f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2dd6a0c5-3cc3-4d92-9d2d-fb635976e3e4" name="ApproveApplication" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c90a4323-d5e2-4e98-afcf-35bcbee60740" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="337b309a-2a57-458f-a0b3-4fb19c91276d" />
+          </association>
+          <association Id="dce76013-a32f-46f9-8def-53379aa47310" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="PayForSpot" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="dc6c1d7b-42ea-4724-9bc7-19bfa916e703" LastKnownName="PayForSpot" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="48d98909-d352-43c0-98b1-de2744511ca7" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a112cea5-13b8-440d-8782-2368d71c3986" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="90649e8f-8ecc-452c-9b53-5a5c5df48853" name="PayForSpot" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="34706fe6-9085-4ead-a1bc-0671c49665e2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="95e9e325-e272-4f87-8d10-c4649f4a7141" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="33b42fb4-c6b3-4edb-a301-e21528cf6b56" name="TurnInApplication" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e7c8362d-9fae-494c-b778-89e79e5612e9" />
+        <subjects>
+          <subsystemMoniker Id="ab7f561c-7503-4fd5-9f5a-24420cd4c500" LastKnownName="ManagePaperwork" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="61e33132-ffd2-43dc-8973-f7773ad9328e" name="ApproveApplications" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2204c5e6-3812-4558-9c7b-d0a24e7b56aa" />
+        <subjects>
+          <subsystemMoniker Id="ab7f561c-7503-4fd5-9f5a-24420cd4c500" LastKnownName="ManagePaperwork" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <artifact Id="58b3d265-7e6d-4f2e-a0d3-a16f0e7d7814" name="EncounterApplication" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="035ce81c-156c-4259-8502-8c304777ed83" />
+        <targetEnds>
+          <association Id="beef86aa-b15d-4f26-b984-f3f8f9b9391a" isDerived="false" sourceEndRoleName="EncounterApplication" targetEndRoleName="TurnInApplication" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="33b42fb4-c6b3-4edb-a301-e21528cf6b56" LastKnownName="TurnInApplication" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b959b344-0e6f-4eac-99f5-a66fbb125b89" name="EncounterApplication" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f57cbf17-e6d8-4838-a5de-0fdb8bce2d3a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="95434ac7-271a-46c9-acd5-38f5fe93e08e" name="TurnInApplication" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a46347fa-a53f-47cb-a9b4-a25a086fa187" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="861efc31-39c7-4e1f-98fa-01c266317207" />
+          </association>
+          <association Id="812ef0f4-72bb-475c-aecf-bcbabcd043f6" isDerived="false" sourceEndRoleName="EncounterApplication" targetEndRoleName="ApproveApplication" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="61e33132-ffd2-43dc-8973-f7773ad9328e" LastKnownName="ApproveApplications" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0f347610-1ee9-4694-9741-96910d78d90b" name="EncounterApplication" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="83644500-f771-4f77-a1af-ecc41f57c57f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="679aeb35-755f-4050-a830-948b8c48f7d9" name="ApproveApplication" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8694fb2b-0c08-471b-883d-7b76966930fd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ff44fa73-affa-483c-9e8b-968d2e350dde" />
+          </association>
+        </targetEnds>
+      </artifact>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <artifact Id="1cd28934-34ad-408b-bbf1-de3510752b78" name="Cash" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ffcadace-6053-4848-a091-3cb9252b576f" />
+        <targetEnds>
+          <association Id="dfce489e-a378-46ef-a673-898e0e9c81e8" isDerived="false" sourceEndRoleName="Cash" targetEndRoleName="PayForSpot" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="dc6c1d7b-42ea-4724-9bc7-19bfa916e703" LastKnownName="PayForSpot" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f9a981f9-e649-42c1-8867-7cb6826edb8a" name="Cash" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="610f3779-56bd-44f4-8442-159ba7fc5081" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e61a3135-2301-4a74-8dac-fce52677e56d" name="PayForSpot" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="200739c1-b667-46c5-aaba-83511b0d492c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="db97dd1d-2ec1-4d21-b7c5-fa1811f94c88" />
+          </association>
+        </targetEnds>
+      </artifact>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="dc6c1d7b-42ea-4724-9bc7-19bfa916e703" name="PayForSpot" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="07c78dde-12c5-4b30-b833-ecbd9c6871a1" />
+        <subjects>
+          <subsystemMoniker Id="ab7f561c-7503-4fd5-9f5a-24420cd4c500" LastKnownName="ManagePaperwork" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="c2980e2f-0c78-4e8c-9559-5e26e1ee8f37" name="EncounterModel">
+    <elementDefinition Id="8eaee036-4a9b-4a0b-9a8f-2b91fcfbd983" />
+    <profileInstances>
+      <packageHasProfileInstances Id="6deeb85a-d94a-4abd-ab07-9d6ddff7a3d8">
+        <profileInstance Id="d834cfd8-56f5-4df2-b323-5bfa5d119c5b" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d937de89-ec86-4031-a2b6-eede933aa4de">
+        <profileInstance Id="4c3c4772-07f3-4237-97a5-549ec0560c25" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="926a7e42-c683-44bb-b95f-b64eebde21a5">
+        <profileInstance Id="2abcf761-0872-4c03-88bf-adb90daf747c" name="CSharpProfile">
+          <elementDefinition Id="2c92095f-59c4-4400-b26a-f6e4539090a4" />
+        </profileInstance>
+        <elementDefinition Id="635d0232-ae7e-413c-86fa-08c62b4ae3b3" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="35916b81-cfd8-46d7-a732-5221e6142c75">
+        <profileInstance Id="c5ddac8a-9253-423f-a93b-2a15c6f58c7c" name="TextTemplateBindings">
+          <elementDefinition Id="278b20ef-ee49-441d-9ebe-38ed45f29128" />
+        </profileInstance>
+        <elementDefinition Id="5d3e15c9-ccf1-4371-a4a5-0bfe2cf9747b" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
