@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Address]
+(
+	[Id] INT NOT NULL IDENTITY(1,1) CONSTRAINT [AddressPK] PRIMARY KEY, 
+    [Address1] NVARCHAR(100) NULL, 
+    [Address2] NVARCHAR(100) NULL, 
+    [City] NVARCHAR(100) NULL DEFAULT 'Cedar Hill', 
+    [State] NCHAR(2) NULL DEFAULT 'TX', 
+    [ZipCode] NVARCHAR(10) NULL DEFAULT '75104'
+)

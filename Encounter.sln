@@ -7,6 +7,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encounter", "Encounter\Enco
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "EncounterModel", "EncounterModel\EncounterModel.modelproj", "{992D5ACA-D2F3-46FC-91B1-78525F6214B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncounterWS", "EncounterWS\EncounterWS.csproj", "{C6FB576C-A0EF-4DC4-904E-034A10A43E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncounterWS.Tests", "EncounterWS.Tests\EncounterWS.Tests.csproj", "{C2B7933A-BB20-4766-B2C1-0CC059BBE632}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{0CA94BA6-3ADC-4DC8-AB39-4EA89135331C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{4A4B5040-4CF0-4603-A398-79F2E604ABF4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\EncounterWS-VM-dev.json = PublishScripts\Configurations\EncounterWS-VM-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonEncounterObjects", "CommonEncounterObjects\CommonEncounterObjects.csproj", "{0F251203-9576-41E1-A773-D23DA04AFB48}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EncounterDB", "EncounterDB\EncounterDB.sqlproj", "{00D54AA0-2AA1-469D-B285-8820FEB88A06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +40,29 @@ Global
 		{992D5ACA-D2F3-46FC-91B1-78525F6214B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{992D5ACA-D2F3-46FC-91B1-78525F6214B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{992D5ACA-D2F3-46FC-91B1-78525F6214B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6FB576C-A0EF-4DC4-904E-034A10A43E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6FB576C-A0EF-4DC4-904E-034A10A43E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6FB576C-A0EF-4DC4-904E-034A10A43E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6FB576C-A0EF-4DC4-904E-034A10A43E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B7933A-BB20-4766-B2C1-0CC059BBE632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B7933A-BB20-4766-B2C1-0CC059BBE632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B7933A-BB20-4766-B2C1-0CC059BBE632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B7933A-BB20-4766-B2C1-0CC059BBE632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F251203-9576-41E1-A773-D23DA04AFB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F251203-9576-41E1-A773-D23DA04AFB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F251203-9576-41E1-A773-D23DA04AFB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F251203-9576-41E1-A773-D23DA04AFB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D54AA0-2AA1-469D-B285-8820FEB88A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D54AA0-2AA1-469D-B285-8820FEB88A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D54AA0-2AA1-469D-B285-8820FEB88A06}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{00D54AA0-2AA1-469D-B285-8820FEB88A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D54AA0-2AA1-469D-B285-8820FEB88A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D54AA0-2AA1-469D-B285-8820FEB88A06}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A4B5040-4CF0-4603-A398-79F2E604ABF4} = {0CA94BA6-3ADC-4DC8-AB39-4EA89135331C}
 	EndGlobalSection
 EndGlobal
