@@ -65,5 +65,9 @@
     <Build Include="Address.sql" />
     <Build Include="Location.sql" />
     <Build Include="I_LocationName.sql" />
+    <Build Include="LocationContacts.sql" />
+    <Build Include="I_LocationContact.sql" />
+    <Build Include="Person.sql" />
+    <Build Include="I_Person.sql" />
   </ItemGroup>
 </Project>
